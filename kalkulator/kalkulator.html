@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MiniProject-Kalkulator mahasiswa</title>
+  </head>
+  <body>
+    <h2>Kalkulator Nilai Mahasiswa</h2>
+
+    <!-- Form input -->
+    <label>Tugas: <input type="number" id="inputTugas" /></label><br /><br />
+    <label>UTS: <input type="number" id="inputUts" /></label><br /><br />
+    <label>UAS: <input type="number" id="inputUas" /></label><br /><br />
+    <button type="button" onclick="prosesNilai()">Hitung Nilai</button>
+
+    <!-- Tempat menampilkan hasil -->
+    <div id="tampilHasil">
+      <p id="hasilAkhir"></p>
+      <p id="hasilPredikat"></p>
+      <p id="hasilStatus"></p>
+    </div>
+
+    <script src="kalkulator.js"></script>
+  </body>
+</html>
